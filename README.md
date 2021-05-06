@@ -75,3 +75,4 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 ## Credits
 @komarlaakshay
 @mohitvenx
+@DGHarshith
