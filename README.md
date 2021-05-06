@@ -1,12 +1,12 @@
-# Nursebot
+# Nursebot 
 Its a robot nurse prototype which can be controlled through Bluetooth and is designed to dispense the tablets based on the patient identity which is detected by the face recognition algorithm
 
-## The Idea
+## The Idea 💡
 This pandemic Doctor and Nurses have given the best for the society
 But they cannot be there every time as there is a difference in the ratio of patients and the doctor/nurses in order to assist them we have created this prototype which can detect the patient face and dispense the tablets prescribed by the doctor. 
 
 ## Components Required 
-1) [ ] Raspberry pi 3B+
+1)Raspberry pi 3B+
 
 2)Raspberry picam
 
@@ -48,12 +48,9 @@ Rasbian for pi
 
 ## Procedure
 These are the steps to be followed
-1)Build the chassis for the robot with 2 geared motor with wheels and a Castrol wheel, make the Bluetooth, Motor connections to the Arduino. We are using a Bluetooth control app to move the robot.
-
-2)Download the openCV library for python and write a code to implement Facial recognition. Face recognition identifies faces and displays the name of the person. A small Raspberry Pi cam can be used for this purpose. The camera takes a specified number of photos.  A record of the person’s photos is maintained in a folder. These photos are used for the identifiaction of the patient for dispencing the tablet.
-
+1) Build the chassis for the robot with 2 geared motor with wheels and a Castrol wheel, make the Bluetooth, Motor connections to the Arduino. We are using a Bluetooth control app to move the robot.
+2) Download the openCV library for python and write a code to implement Facial recognition. Face recognition identifies faces and displays the name of the person. A small Raspberry Pi cam can be used for this purpose. The camera takes a specified number of photos.  A record of the person’s photos is maintained in a folder. These photos are used for the identifiaction of the patient for dispencing the tablet.
 3) Now we use an API tool called Google Sheets. In this, we stored the data of the user, mainly their name and the number of tablets. We do this by creating a service account. The procedure to that can be found in the following link.
-
 4) Then we have to create a GUI. We did this using HTML, CSS, JAVASCRIPT, and a python library called eel. The library is efficient and also we can create an easy-to-use GUI. The links to that will be given below.
 
 ## Working
@@ -75,4 +72,6 @@ https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/
 PiCam Setting Up
 https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 
-
+## Credits
+@komarlaakshay
+@Harshithdg
